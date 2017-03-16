@@ -48,3 +48,4 @@ Temporary Items
 .metadata/*
 helloScala/.cache-main
 helloScala/.settings/org.eclipse.jdt.core.prefs
+*.class

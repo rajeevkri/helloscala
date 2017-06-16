@@ -14,7 +14,11 @@ object SolMap {
     }
    for (a <- 1 to n) {
       var name = sc.next();
-      println(phoneBook.getOrElse(name, "Not found"));
+      if(phoneBook.contains(name)) {
+        println(name + "=" +phoneBook.getOrElse(name, "Not found"));
+      } else {
+        println("Not found")
+      }
    }
   }
 }
